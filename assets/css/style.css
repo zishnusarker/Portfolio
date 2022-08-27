@@ -611,9 +611,15 @@ section {
 }
 
 .about .image {
-  background: url("../img/me1.jpg") center center no-repeat;
+  background: url("../img/me1.jpg") no-repeat center;
   background-size: cover;
-  min-height: 500px;
+  /* min-height: 500px; */
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+
 }
 
 .about .skills-content {
