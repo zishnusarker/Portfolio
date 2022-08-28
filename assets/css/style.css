@@ -1277,16 +1277,19 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffb727;
+  /* background: #0dcaf0; */
   border: 0;
-  padding: 10px 24px;
-  color: #fff;
+  padding: 10px 10px;
+  color: rgb(3, 3, 3);
   transition: 0.4s;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  border-radius: 50%;
+  text-align: center;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffc85a;
+  background: #49cfff;
+  color: #fff
 }
 
 @-webkit-keyframes animate-loading {
@@ -1313,7 +1316,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/bg3.jpg") top center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
@@ -1360,7 +1363,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ffb727;
+  /* background: #0dcaf0; */
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1373,7 +1376,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #f3a200;
+  background: #0dcaf0;
   color: #fff;
   text-decoration: none;
 }
